@@ -16,22 +16,36 @@ this.state={
     helpdata:[
         {
             id:1,
-            title:'TRACK EVERY ACTIVITY',
-            content:"Ex-Watch gives you an easy-to-read dashboard of tracking your activities. The Health app puts your data in one place, accessible with a tap, giving you a clear and current overview of your health & activities. It just might be the beginning of a health revolution.",
-            imge:"https://cdn.shopify.com/s/files/1/1315/0213/t/4/assets/homepage_feature2_1.jpg?v=15217841245925245431"
+            title:'Health Collaboration',
+            content:`Collaborative platform bringing patient, healthgiver & family on same platform
+            Doctor’s control dashboard,
+            Immediate notification to stakeholders on alerts and emergency
+            Real-time care coordination,
+            Single device based platform with global coverage`,
+            imge:"https://cdn.business2community.com/wp-content/uploads/2012/10/collaboration-puzzle-pieces.png"
         },
         {
             id:2,
-            title:'LIVE IN STYLE - YOUR WAY',
-            content:"Ex-Watch gives you an easy-to-read dashboard of tracking your activities. The Health app puts your data in one place, accessible with a tap, giving you a clear and current overview of your health & activities. It just might be the beginning of a health revolution.",
-            imge:"https://cdn.shopify.com/s/files/1/1315/0213/t/4/assets/homepage_feature2_2.jpg?v=11741403234538269808"
+            title:'Health proliferation',
+            content:` Pay per use model enables healthcare providers unlimited expansion
+            Reduced capital intensive investments,
+            Subscription based healthcare,
+            Healthcare to the convenience of the patient anywhere
+            `,
+            imge:"https://medcitynews.com/uploads/2017/03/GettyImages-647410138.jpg"
 
         },
         {
             id:3,
-            title:'YOUR TRUE COMPANION ',
-            content:"Ex-Watch gives you an easy-to-read dashboard of tracking your activities. The Health app puts your data in one place, accessible with a tap, giving you a clear and current overview of your health & activities. It just might be the beginning of a health revolution.",
-            imge:"https://cdn.shopify.com/s/files/1/1315/0213/t/4/assets/homepage_feature2_3.jpg?v=615776202323157683"
+            title:`Insurance and Policy making
+            Data science based healthcare`,
+            content:`
+            Data science based health research
+            Policy making based on population health statistics
+            Patient health data based insurance risk assessment
+            Reduction of false insurance claims
+            Reduction in cost of health insurance`,
+            imge:"https://healthitanalytics.com/images/site/article_headers/_normal/ThinkstockPhotos-538998185.jpg"
 
         },]
 };
@@ -143,7 +157,8 @@ margin:auto;
         text-transform:uppercase;
         text-align:right;
         color:grey;
-        font-size:20px;
+        font-size:16px;
+        line-height:1.8;
     }
 
 #hslide{

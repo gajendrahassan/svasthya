@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 import { Parallax } from 'react-scroll-parallax';
 import FeatureContent from './featureSecCont'
+import simg1 from '../../../images/slideimages/slide (1).jpg'
+import simg2 from '../../../images/slideimages/slide (2).jpg'
+import simg3 from '../../../images/slideimages/slide (3).jpg'
+
 class WatchSlideSec extends Component {
 
 
@@ -12,25 +16,25 @@ class WatchSlideSec extends Component {
     {
 
         active:true,
-        src:"https://cdn.shopify.com/s/files/1/1315/0213/products/3.png?v=1465067430"
+        src:simg1
     },
      
     {
 
         active:true,
-        src:"https://cdn.shopify.com/s/files/1/1315/0213/products/1.png?v=1465067425"
+        src:simg2
     },
-    ,
+    
      
     {
 
         active:true,
-        src:"https://cdn.shopify.com/s/files/1/1315/0213/products/2.png?v=1465067428"
+        src:simg3
     }
     
 ],
 
-current:"https://cdn.shopify.com/s/files/1/1315/0213/products/3.png?v=1465067430"
+current:simg1
     }
 
 
@@ -77,9 +81,9 @@ this.setState({current:src})
 
 
     <ul>
-      <li tabIndex="1" onClick={(e)=>this.handleClick(e)} data-imge="https://cdn.shopify.com/s/files/1/1315/0213/products/3.png?v=1465067430" style={{backgroundColor:"#FF51BE"}}></li>
-      <li tabIndex="2" onClick={(e)=>this.handleClick(e)} data-imge="https://cdn.shopify.com/s/files/1/1315/0213/products/1.png?v=1465067425" style={{backgroundColor:"#C9E300"}}></li>
-      <li tabIndex="3" onClick={(e)=>this.handleClick(e)} data-imge="https://cdn.shopify.com/s/files/1/1315/0213/products/2.png?v=1465067428" style={{backgroundColor:"#29D3F2"}}></li>
+      <li tabIndex="1" onClick={(e)=>this.handleClick(e)} data-imge={simg1} style={{backgroundColor:"#FF51BE"}}></li>
+      <li tabIndex="2" onClick={(e)=>this.handleClick(e)} data-imge={simg2} style={{backgroundColor:"#C9E300"}}></li>
+      <li tabIndex="3" onClick={(e)=>this.handleClick(e)} data-imge={simg3} style={{backgroundColor:"#29D3F2"}}></li>
   </ul>
     </div>
     <div className="col-sm-1"></div>

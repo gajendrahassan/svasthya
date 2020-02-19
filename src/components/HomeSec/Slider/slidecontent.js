@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components'
 import { IoIosArrowDroprightCircle, IoIosArrowDropleftCircle } from "react-icons/io";
-import Fade from 'react-reveal/Fade';
 import SliderUndSec from './slideundSec'
+import simg1 from '../../../images/slideimages/mslide (1).png'
+import simg2 from '../../../images/slideimages/mslide (2).png'
+import simg3 from '../../../images/slideimages/mslide (3).png'
+
 class slidecontent extends Component {
 
 
@@ -14,16 +17,16 @@ class slidecontent extends Component {
                 
                 {
                     id:"one",
-        img:"https://www.bell.ca/Styles/wireless/Applewatch4/40mm-AluminumSilver-SportBand-White_lrg1.png",
+        img:simg1,
         title:"Remote Health Discovery"
         },
                
         {   id:"two",
-            img:"https://i.ya-webdesign.com/images/apple-watch-png-6.png",
+            img:simg2,
             title:"Care Coordination"
             },
             {   id:"three",
-            img:"https://i.ya-webdesign.com/images/apple-watch-png-6.png",
+            img:simg3,
             title:"Touching 100M people by 2030"
             }
         ],
@@ -99,12 +102,12 @@ handleClickleft = () => {
                    </span>
 
                    </div>
-                   <div className="col-sm-3">
+                   <div className="col-sm-4">
                   
          <img ref={this.img} className="d-block mx-auto"   src={this.state.slidedata[cslide].img} alt="fgfg" id="slideimg" />
          
                    </div>
-                   <div className="col-sm-5">
+                   <div className="col-sm-4">
 
               <h1 className="text-white btext ">{this.state.slidedata[cslide].title}</h1>
 
